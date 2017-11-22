@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "slimbot",
+        "scope": null,
+        "escapedName": "slimbot",
+        "name": "slimbot",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/thexdd"
+    ]
+  ],
+  "_from": "slimbot@latest",
+  "_id": "slimbot@0.7.8",
+  "_inCache": true,
+  "_location": "/slimbot",
+  "_nodeVersion": "8.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/slimbot-0.7.8.tgz_1510669598049_0.3075264252256602"
+  },
+  "_npmUser": {
+    "name": "edisonchee",
+    "email": "airborneturtles@gmail.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "slimbot",
+    "scope": null,
+    "escapedName": "slimbot",
+    "name": "slimbot",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/slimbot/-/slimbot-0.7.8.tgz",
+  "_shasum": "76e16328f130c544402a253a60e43d1df080aafb",
+  "_shrinkwrap": null,
+  "_spec": "slimbot",
+  "_where": "/Users/thexdd",
+  "author": {
+    "name": "Edison Chee",
+    "email": "edisonchee@live.com"
+  },
+  "bugs": {
+    "url": "https://github.com/edisonchee/slimbot/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "eventemitter3": "^2.0.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "description": "Simple and minimal Telegram Bot API for Node.js. No frills.",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.11.0",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "mockery": "^2.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-FghjEkBEPdaQWOfzwo6NyvsB1yu3fg+ntYJE26qlv8tE6lM8B6zNxWz4Wh1foBN7qq15bL+2L6UY9l+x2WT2iQ==",
+    "shasum": "76e16328f130c544402a253a60e43d1df080aafb",
+    "tarball": "https://registry.npmjs.org/slimbot/-/slimbot-0.7.8.tgz"
+  },
+  "engines": {
+    "node": "^8.9.1"
+  },
+  "gitHead": "3e29a6b799845ca8db41eceb1363b7cebea43a42",
+  "homepage": "https://github.com/edisonchee/slimbot#readme",
+  "keywords": [
+    "telegram",
+    "bot",
+    "api",
+    "node",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "main": "./src/slimbot.js",
+  "maintainers": [
+    {
+      "name": "edisonchee",
+      "email": "airborneturtles@gmail.com"
+    }
+  ],
+  "name": "slimbot",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edisonchee/slimbot.git"
+  },
+  "scripts": {
+    "start": "pm2 start src/index.js --watch",
+    "test": "istanbul cover jasmine --captureExceptions spec/core/*.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "version": "0.7.8",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^8.9.1"
+      },
+      "pkgid": "slimbot@0.7.8"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^8.9.1"
+      },
+      "pkgid": "slimbot@0.7.8"
+    }
+  ]
+}
